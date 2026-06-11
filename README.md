@@ -77,11 +77,11 @@ me = ShashiKamalMishra()
 
 ## 🚀 Projects
 
-> 🔨 **Just getting started — first project in progress!**
+> 🔨 **Project in progress!**
 
-| # | Project | Tech Stack | Status |
-|---|---------|-----------|--------|
-| 01 | 📈 Stock Market Analysis & Prediction | Python, yfinance, Pandas, Matplotlib, Streamlit | 🔧 Building |
+| Project | Tech Stack | Status |
+|---------|-----------|--------|
+|Stock Market Anomaly Detection & Trend Forecasting (Python, Pandas, Scikit-learn, ARIMA, Streamlit)| 🔧 Building |
 
 ---
 
