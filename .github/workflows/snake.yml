@@ -15,13 +15,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation (colored dots, cyan/blue palette)
+      - name: Generate snake animation (magenta snake, red dots)
         uses: Platane/snk@v3
         with:
           github_user_name: mishrashashikamal
           outputs: |
-            dist/snake-dots.svg?color_snake=#00D9FF&color_dots=#0D1117,#003b46,#007b8a,#00c2d1,#00fff7
-            dist/snake-dots-dark.svg?palette=github-dark&color_snake=#7000FF&color_dots=#0D1117,#1a1a3d,#3d1a6b,#5e1ab8,#7000ff
+            dist/snake-dots.svg?color_snake=#FF2EC4&color_dots=#0D1117,#3d0d0d,#7a1414,#c11f1f,#ff3b3b
+            dist/snake-dots-dark.svg?palette=github-dark&color_snake=#FF2EC4&color_dots=#0D1117,#3d0d0d,#7a1414,#c11f1f,#ff3b3b
 
       - name: Push generated files to the "output" branch
         uses: crazy-max/ghaction-github-pages@v4
